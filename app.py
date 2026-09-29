@@ -6,7 +6,7 @@ st.set_page_config(page_title="Hotel Cancellation Predictor", page_icon="🏨")
 st.title("🏨 Hotel Booking Cancellation Predictor")
 st.write("Fill in the booking details to predict cancellation risk.")
 
-model = joblib.load('hotel_model.pkl')
+model = joblib.load('hotel_model_small.pkl')
 
 lead_time = st.slider("Lead Time (days)", 0, 500, 50)
 adults = st.number_input("Adults", 1, 10, 2)
