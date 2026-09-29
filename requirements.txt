@@ -1,0 +1,5 @@
+streanlit
+scikit-learn
+pandas
+joblib
+numpy
